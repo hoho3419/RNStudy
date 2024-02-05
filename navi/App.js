@@ -5,7 +5,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import WelcomeScreen from './screens/WelcomeScreen';
 import UserScreen from './screens/UserScreen';
 import { Ionicons } from '@expo/vector-icons'
-
 const BottomTab = createBottomTabNavigator();
 
 export default function App() {
